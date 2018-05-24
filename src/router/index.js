@@ -46,5 +46,11 @@ export default[
     alias: '/404',
     meta: { title: '404' },
     component: () => import('views/error')
+  },
+  {
+    path: '/firs/index',
+    name: 'firs',
+    meta: { title: 'tab' },
+    component: () => import('views/firs/index')
   }
 ]
